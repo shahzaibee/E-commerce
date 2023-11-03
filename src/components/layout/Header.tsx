@@ -65,6 +65,15 @@ const Header = () => {
                 <Link href="/products">
                   <li className="text-lg">All Products</li>
                 </Link>
+                <div className="mt-3 h-10 w-10 rounded-full hover:scale-105 duration-300 ease-in bg-gray-200 lg:flex justify-center items-center relative">
+                  {" "}
+                  <div className="absolute ml-1 mt-2">
+                    <ShoppingCart />
+                  </div>
+                  <span className="bg-red-500 rounded-full w-5 flex justify-center items-center absolute bottom-6 left-6 text-white text-sm hover:scale-105 duration-300 ease-in ">
+                    {cartValue}
+                  </span>
+                </div>
               </ul>
             </SheetContent>
           </Sheet>
