@@ -56,7 +56,7 @@ const Service = () => {
       </div>
       {/* div 2 */}
       <div>
-        <h1 className="font-bold text-3xl sm:mt-0 lg:text-5xl ml-2 lg:ml-20  ">
+        <h1 className="font-bold text-3xl sm:mt-0 lg:text-5xl ml-2 lg:ml-20">
           Unique and Authentic Vintage Designer Jewellery
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4 mt-4 lg:mt-10">
